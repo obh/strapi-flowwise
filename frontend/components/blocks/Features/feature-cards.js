@@ -7,7 +7,7 @@ const Cards = ({ cards }) => {
       {cards &&
         cards.map((item, index) => (
           <div
-            className={`w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6 shadow-lg rounded-lg`}
+            className={`w-full sm:w-1/2 md:w-1/2 lg:w-1/5 px-4 py-4 bg-white mt-6 shadow-lg rounded-lg`}
             key={`feature-${index}`}
           >
             <div className="flex-shrink-0">
